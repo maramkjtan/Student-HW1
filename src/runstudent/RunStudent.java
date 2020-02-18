@@ -28,7 +28,7 @@ public class RunStudent {
        
         Student.sort(s);
         
-
+      
         PrintWriter p = new PrintWriter(new File("src/runstudent/student.txt"));
         for (Student a : s) {
             p.println(a);
